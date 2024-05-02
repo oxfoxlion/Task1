@@ -67,7 +67,8 @@ img{
 }
 
 .card{
-	width:49%
+	width: 48%;
+	margin-right:2%;
 }
 
 .pic img{
@@ -131,75 +132,43 @@ img{
 }
 
 @media (max-width:768px) {
-	.content{
-		margin-top: 8px;
-		padding-left: 8px;
-		padding-bottom: 8px;
+	.card{
+		width: 98%;
+		margin: 0 auto;
 	}
 
+	.content{
+		margin-top: 16px;
+		padding-left: 16px;
+		padding-bottom: 16px;
+	}
+	
 	.title{
-		margin-bottom: 12px;
+		margin-bottom: 24px;
 	}
 	
 	.title h2{
-		font-size: 14px;
-		line-height: 16px;
-		margin-bottom: 4px;
+		font-size: 28px;
+		line-height: 33.6px;
+		margin-bottom: 8px;
 	}
+	
 	.title p{
-		font-size: 8px;
-		line-height: 12px;
-	}
-
-	
-.tag ul li{
-	margin-right: 8px;
-}
-
-.tag ul li a{
-	border-radius: 8px;
-	font-size: 8px;
-	line-height: 12px;
-	padding-left: 6px;
-	padding-right: 6px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-}
-
-@media (max-width:414px) {
-	.content{
-		margin-top: 5px;
-		padding-left: 5px;
-		padding-bottom: 5px;
-	}
-
-	.title{
-		margin-bottom: 7px;
+		font-size: 16px;
+		line-height: 24px;
 	}
 	
-	.title h2{
-		font-size: 8px;
-		line-height: 9px;
-		margin-bottom: 3px;
+	.tag ul li{
+		margin-right: 16px;
 	}
-	.title p{
-		font-size:5px;
-		line-height: 7px;
-	}
-
 	
-.tag ul li{
-	margin-right: 4px;
-}
-
-.tag ul li a{
-	border-radius: 4px;
-	font-size: 5px;
-	line-height: 6px;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-}
+	.tag ul li a{
+		border-radius: 16px;
+		font-size: 16px;
+		line-height: 24px;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
 }
